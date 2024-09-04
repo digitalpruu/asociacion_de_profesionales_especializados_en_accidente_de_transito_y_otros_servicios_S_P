@@ -994,7 +994,7 @@
  .text-bg h1 {
      color: #000;
      padding-top: 50px;
-     font-size: 65px;
+     font-size: 60px;
      line-height: 94px;
     padding-bottom: 25px;
     font-weight: bold;
@@ -1409,7 +1409,7 @@ padding-bottom: 33px;
      color: #fff;
 }
 .text-img{
-     width: 650px;
+     max-width: 650px;
 }
 .text-img figure img{
      border-radius: 16px;
