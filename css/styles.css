@@ -16,7 +16,7 @@ html {
 .nav-container {
   width: 100%;
   height: auto;
-  background: #5b1134;
+  background: rgba(75, 112, 155, 0.7607843137);
 }
 .nav-container nav .logo-nav {
   display: flex;
@@ -91,7 +91,7 @@ main .product .product-section {
   scroll-snap-type: x proximity;
 }
 main .product .product-section .product-card {
-  background-color: #5b1134;
+  background-color: #6a9eda;
   scroll-snap-align: center;
   margin: 0 10px;
   width: 40vw;
@@ -127,7 +127,7 @@ main .catalogue img {
 }
 main .about-us {
   padding-top: 60px;
-  background-color: rgba(127, 121, 168, 0.5294117647);
+  background-color: rgba(143, 113, 147, 0.7137254902);
 }
 main .about-us .about-us-text {
   text-align: center;
@@ -182,7 +182,7 @@ main .contact .contact-title a button:hover {
 
 footer {
   padding: 0 10px;
-  background: linear-gradient(207.8deg, #5b1134 16.69%, #7f79a8 100%);
+  background: linear-gradient(207.8deg, rgba(75, 112, 155, 0.7607843137) 16.69%, #8f7193 100%);
   display: flex;
   flex-direction: column;
   align-items: center;

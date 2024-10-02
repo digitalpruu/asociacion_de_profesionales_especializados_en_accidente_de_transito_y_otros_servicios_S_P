@@ -14,7 +14,7 @@ html{
 .nav-container{
     width: 100%;
     height: auto;
-    background: #5b1134;
+    background: #4b709bc2;
     nav{
         .logo-nav{
             display: flex;
@@ -94,7 +94,7 @@ main{
             overscroll-behavior-x: contain;
             scroll-snap-type: x proximity;
             .product-card{
-                background-color: #5b1134;
+                background-color: #6a9eda;
                 scroll-snap-align: center;
                 margin: 0 10px;
                 width: 40vw;
@@ -134,7 +134,7 @@ main{
 
     .about-us{
         padding-top: 60px;
-        background-color: #7f79a887;
+        background-color: #8f7193b6;
         .about-us-text{
             text-align: center;
             padding-bottom: 20px;
@@ -199,7 +199,7 @@ main{
 
 footer{
     padding: 0 10px;
-    background: linear-gradient(207.8deg, #5b1134 16.69%, #7f79a8 100%);
+    background: linear-gradient(207.8deg, #4b709bc2 16.69%, #8f7193 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
