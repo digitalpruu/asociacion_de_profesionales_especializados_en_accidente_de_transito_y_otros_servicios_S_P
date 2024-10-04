@@ -8,7 +8,7 @@
   padding-left: 10px;
 }
 .nav-container nav .logo-nav img {
-  width: 18vw;
+  width: 22vw;
 }
 .nav-container nav .menu {
   display: flex;
@@ -110,5 +110,5 @@ footer .social-media .social-icons a img:hover {
   transform: scale(1.1);
 }
 footer .logo-footer img {
-  width: 18vw;
+  width: 20vw;
 }/*# sourceMappingURL=desktop.css.map */
