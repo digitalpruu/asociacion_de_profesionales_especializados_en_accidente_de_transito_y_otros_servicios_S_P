@@ -65,55 +65,70 @@
 
         </section>
 
+        <style>
+            
+            .image-prod{
+                width: 30vw;
+                height: 28vw;
+            }
+            .product-card h3{
+                padding: 10px;
+                color: black;
+            }
+            .prod-c{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                box-shadow: 0 0 5px #992268;
+            }
+            .product{
+                box-shadow: 0 0 5px #992268;
+            }
+            
+        
+        </style>
+        
         <section id="products" class="product">
-            <h2>Productos</h2>
+            <h2>Redes</h2>
             <div class="product-section">
-                <div class="product-card">
+                <div class="product-card prod-c">
                     <div class="image-product">
-                        <img src="./assets/product.jpg" alt="">
+                        <img class="image-prod" src="./assets/wsapp.jpg" alt="">
                     </div>
-                    <h3>Producto</h3>
+                    <h3>WhatsApp</h3>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card prod-c">
                     <div class="image-product">
-                        <img src="./assets/product.jpg" alt="">
+                        <img class="image-prod" src="./assets/ig.jpg" alt="">
                     </div>
-                    <h3>Producto</h3>
+                    <h3>Instagram</h3>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card prod-c">
                     <div class="image-product">
-                        <img src="./assets/product.jpg" alt="">
+                        <img class="image-prod" src="./assets/tiktok.jpg" alt="">
                     </div>
-                    <h3>Producto</h3>
+                    <h3>Tiktok</h3>
                 </div>
 
 
-                <div class="product-card">
+                <div class="product-card prod-c">
                     <div class="image-product">
-                        <img src="./assets/product.jpg" alt="">
+                        <img class="image-prod" src="./assets/fb.jpg" alt="">
                     </div>
-                    <h3>Producto</h3>
-                </div>
-
-                <div class="product-card">
-                    <div class="image-product">
-                        <img src="./assets/product.jpg" alt="">
-                    </div>
-                    <h3>Producto</h3>
-                </div>
-
-                <div class="product-card">
-                    <div class="image-product">
-                        <img src="./assets/product.jpg" alt="">
-                    </div>
-                    <h3>Producto</h3>
+                    <h3>Facebook</h3>
                 </div>
 
             </div>
 
         </section>
+
+        <style>
+            .about-us-text p{
+                text-align: justify;
+            }
+        </style>
 
         <section id="aboutus" class="about-us">
             <div class="about-us-text">
@@ -138,7 +153,15 @@
 
         </section>
 
-        <section id="contact" class="contact">
+        <style>
+            .bg-cont{
+                background-color: #8f7193c2;
+                height: 80vh;
+                align-items: center;
+            }
+        </style>
+
+        <section id="contact" class="contact bg-cont">
             <div class="contact-image">
                 <img src="./assets/contactBanner.jpg" alt="">
             </div>
@@ -157,20 +180,56 @@
 
     <footer>
 
+        <style>
+            footer{
+                background-color: #8f7193c2;
+            }
+            .social-media-icon{
+                display: grid;
+                justify-content: center;
+                grid-template-columns: repeat(3, 55px);
+            }
+            .social-media-icon a{
+                margin: 0;
+            }
+
+            .media-logo-footer{
+                width: 50px;
+                height: auto;
+                margin: 0;
+                background: #992268;
+                border-radius: 10%;
+            }
+            .facebook-logo:hover{
+                background: #3b5998;
+                transform: scale(1.1);
+            }
+            .whatsapp-logo:hover{
+                background: #25d366;
+                transform: scale(1.1);
+            }
+            .instagram-logo:hover {
+                background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+                transform: scale(1.1);
+            }
+            .social-media{
+                padding-left: 50px;
+            }
+        </style>
+
         <div class="social-media">
             <h3>Siguenos</h3>
             <div class="social-icons">
-                <a href="https://www.instagram.com/sp.servicios.profesionales/"><img src="/assets/logotipo-de-instagram.png" alt=""></a>
-                <a href="https://www.facebook.com/people/SP-Servicios-Profesionales/61565527354939/"><img src="/assets/facebook.png" alt=""></a>
-                <a href="https://wa.link/lavlxv"><img src="/assets/whatsapp.png" alt=""></a>
+                <a href="https://www.instagram.com"><img src="/assets/logotipo-de-instagram.png" alt=""></a>
+                <a href="https://www.facebook.com"><img src="/assets/facebook.png" alt=""></a>
+                <a href="https://www.tiktok.com"><img src="/assets/tik-tok.png" alt=""></a>
+                <a href="https://wa.link/i7rg8z"><img src="/assets/whatsapp.png" alt=""></a>
             </div>
         </div>
 
         <div class="number">
-            <a href="https://wa.link/lavlxv">
-                <p>(+57)319-316-8227</p>
-            </a>
-            <p>spserviciosprofesionales2@gmail.com</p>
+            <p>(+57)319-316-8227</p>
+            <p>maria7abogados@gmail.com</p>
         </div>
 
         <div class="logo-footer">
