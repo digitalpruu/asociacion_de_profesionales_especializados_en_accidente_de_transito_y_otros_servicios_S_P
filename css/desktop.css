@@ -8,7 +8,7 @@
   padding-left: 10px;
 }
 .nav-container nav .logo-nav img {
-  width: 22vw;
+  width: 12vw;
 }
 .nav-container nav .menu {
   display: flex;
@@ -78,8 +78,9 @@ main .about-us .about-us-img img {
   width: 45vw;
 }
 main .contact {
+  height: max-content;
   border-top: 1px solid black;
-  padding: 60px 40px;
+  padding: 120px 40px;
   display: flex;
 }
 main .contact .contact-image {
